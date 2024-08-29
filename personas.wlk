@@ -1,3 +1,4 @@
+
 import objetos.*
 object rosa {
     method leGusta(algunObjeto) {

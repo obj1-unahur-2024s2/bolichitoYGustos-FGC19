@@ -169,4 +169,10 @@ object cajita{
   method pesoDeLaCajita(){
     return 400 + objetoAdentro.peso()
   }
+  method esDeColorFuerte() {
+    return self.color().esColorFuerte()
+  }
+  method esMaterialQueBrilla() {
+    return self.material().esBrillante()
+  }
 }
